@@ -9,10 +9,10 @@ keyboardController = Controller()
 # fonction appelé lors de l'appuie d'une touche
 # try and catch pour éviter les crashs
 # ERREUR : key.char provque des erreurs pour les touches présente dans Key
-# car ils ne sont peut être pas considérés comme des char
-# example: backspace, space
+# car ils ne sont peut être pas considérés comme des 'char'
+# exemple: backspace, space
 # keyboardController.press(Key.backspace) génère une erreur
-# car elle simule l'appuie d'une touche présent dans Key
+# car elle simule l'appuie d'une touche présente dans Key
 
 def on_press(key):
     try:
