@@ -2,8 +2,8 @@ from pynput import keyboard
 from pynput.keyboard import Controller, Key
 
 # gestionnaire du clavier
-# écrit du text type()
-# génère une simulation d'appuie de touche press()
+# écrit du text avec type()
+# génère une simulation d'appuie de touche avec press()
 keyboardController = Controller()
 
 # fonction appelé lors de l'appuie d'une touche
